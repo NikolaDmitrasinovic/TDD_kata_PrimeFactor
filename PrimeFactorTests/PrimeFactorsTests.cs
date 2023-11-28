@@ -49,5 +49,11 @@ namespace PrimeFactorTests
         {
             Assert.Equal(CreateList(2, 2), PrimeFactors.Generate(4));
         }
+
+        [Fact]
+        public void Test5()
+        {
+            Assert.Equal(CreateList(2, 3), PrimeFactors.Generate(6));
+        }
     }
 }
