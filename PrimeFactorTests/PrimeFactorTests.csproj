@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TDDpractice_PrimeFactor\PrimeFactors.csproj" />
+  </ItemGroup>
+
 </Project>
