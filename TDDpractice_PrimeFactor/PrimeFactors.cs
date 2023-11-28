@@ -7,18 +7,10 @@ namespace PrimeFactor
         {
             List<int> primes = [];
 
-            if (number > 1)
-            {
-                while (number % 2 == 0)
-                {
-                    primes.Add(2);
-                    number /= 2;
-                }
-                if (number > 1)
-                {
-                    primes.Add(number);
-                }
-            }
+            for (int candidate = 2; number > 1; candidate++)
+                for (; number % candidate == 0; number /= candidate)
+                    primes.Add(candidate);
+
 
             return primes;
         }
