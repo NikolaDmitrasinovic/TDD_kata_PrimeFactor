@@ -9,7 +9,15 @@ namespace PrimeFactor
 
             if (number > 1)
             {
-                primes.Add(number);
+                if (number%2 == 0)
+                {
+                    primes.Add(2);
+                    number /= 2;
+                }
+                if (number > 1)
+                {
+                    primes.Add(number);
+                }
             }
 
             return primes;
