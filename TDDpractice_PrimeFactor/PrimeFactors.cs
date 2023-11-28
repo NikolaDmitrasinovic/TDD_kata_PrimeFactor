@@ -9,7 +9,7 @@ namespace PrimeFactor
 
             if (number > 1)
             {
-                if (number%2 == 0)
+                while (number % 2 == 0)
                 {
                     primes.Add(2);
                     number /= 2;
