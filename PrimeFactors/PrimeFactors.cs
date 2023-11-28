@@ -1,5 +1,4 @@
-﻿
-namespace PrimeFactor
+﻿namespace PrimeFactors
 {
     public class PrimeFactors
     {

@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TDDpractice_PrimeFactor\PrimeFactors.csproj" />
+    <ProjectReference Include="..\PrimeFactors\PrimeFactors.csproj" />
   </ItemGroup>
 
 </Project>

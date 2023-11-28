@@ -1,4 +1,4 @@
-using PrimeFactor;
+using static PrimeFactors.PrimeFactors;
 
 namespace PrimeFactorTests
 {
@@ -24,7 +24,7 @@ namespace PrimeFactorTests
             // Act
 
             // Assert
-            Assert.Equal(CreateList(), PrimeFactors.Generate(1));
+            Assert.Equal(CreateList(), Generate(1));
         }
 
         [Fact]
@@ -35,37 +35,37 @@ namespace PrimeFactorTests
             // Act
 
             // Assert
-            Assert.Equal(CreateList(2), PrimeFactors.Generate(2));
+            Assert.Equal(CreateList(2), Generate(2));
         }
 
         [Fact]
         public void Test3()
         {
-            Assert.Equal(CreateList(3), PrimeFactors.Generate(3));
+            Assert.Equal(CreateList(3), Generate(3));
         }
 
         [Fact]
         public void Test4()
         {
-            Assert.Equal(CreateList(2, 2), PrimeFactors.Generate(4));
+            Assert.Equal(CreateList(2, 2), Generate(4));
         }
 
         [Fact]
         public void Test5()
         {
-            Assert.Equal(CreateList(2, 3), PrimeFactors.Generate(6));
+            Assert.Equal(CreateList(2, 3), Generate(6));
         }
 
         [Fact]
         public void Test6()
         {
-            Assert.Equal(CreateList(2, 2, 2), PrimeFactors.Generate(8));
+            Assert.Equal(CreateList(2, 2, 2), Generate(8));
         }
 
         [Fact]
         public void Test7()
         {
-            Assert.Equal(CreateList(3, 3), PrimeFactors.Generate(9));
+            Assert.Equal(CreateList(3, 3), Generate(9));
         }
     }
 }
