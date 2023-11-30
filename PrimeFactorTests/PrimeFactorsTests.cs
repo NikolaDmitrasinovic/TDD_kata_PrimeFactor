@@ -13,7 +13,7 @@ namespace PrimeFactorTests
             // Act
 
             // Assert
-            Assert.Equal(new List<int>(), Generate(1));
+            Assert.Equal([], Generate(1));
         }
 
         // first try code ( followed the guide)

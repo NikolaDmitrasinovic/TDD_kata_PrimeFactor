@@ -4,7 +4,7 @@
     {
         public static List<int> Generate(int number)
         {
-            return new List<int>();
+            return [];
         }
 
         // first try code ( followed the guide)
