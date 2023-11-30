@@ -27,6 +27,17 @@ namespace PrimeFactorTests
             Assert.Equal([2], Generate(2));
         }
 
+        [Fact]
+        public void Test3()
+        {
+            // Arrange
+
+            // Act
+
+            // Assert
+            Assert.Equal([3], Generate(3));
+        }
+
         // first try code ( followed the guide)
         //private List<int> CreateList(params int[] ints)
         //{
