@@ -1,4 +1,3 @@
-using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.Serialization;
 using static PrimeFactors.PrimeFactors;
 
 namespace PrimeFactorTests
