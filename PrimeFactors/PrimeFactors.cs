@@ -4,12 +4,12 @@
     {
         public static List<int> Generate(int number)
         {
-            if (number < 2)
-                return [];
-            else if (number == 2)
-                return [2];
+            List<int> factors = [];
 
-            return [3];
+            if (number > 1)
+                factors.Add(number);
+
+            return factors;
         }
 
         // first try code ( followed the guide)
