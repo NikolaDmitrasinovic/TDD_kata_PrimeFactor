@@ -5,17 +5,19 @@
         public static List<int> Generate(int number)
         {
             List<int> factors = [];
-            if (number > 1)
+
+            int candidate = 2;
+
+            while (number > 1)
             {
-                while (number%2 == 0)
+                while (number % candidate == 0)
                 {
-                    factors.Add(2);
-                    number /= 2;
+                    factors.Add(candidate);
+                    number /= candidate;
                 }
 
-                if (number > 1)
-                    factors.Add(number);
-            }            
+                candidate++;
+            }
 
             return factors;
         }
