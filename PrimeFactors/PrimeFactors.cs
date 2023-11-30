@@ -6,17 +6,14 @@
         {
             List<int> factors = [];
 
-            if (number > 1)
+            if (number % 2 == 0)
             {
-                if (number%2 == 0)
-                {
-                    factors.Add(2);
-                    number /= 2;
-                }
-                    
-                if (number > 1)
-                    factors.Add(number);
-            }                
+                factors.Add(2);
+                number /= 2;
+            }
+
+            if (number > 1)
+                factors.Add(number);
 
             return factors;
         }
