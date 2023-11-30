@@ -7,7 +7,7 @@
             if (number < 2)
                 return [];
 
-            return new List<int> { 2 };
+            return [2];
         }
 
         // first try code ( followed the guide)

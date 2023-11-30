@@ -24,7 +24,7 @@ namespace PrimeFactorTests
             // Act
 
             // Assert
-            Assert.Equal(new List<int> { 2 }, Generate(2));
+            Assert.Equal([2], Generate(2));
         }
 
         // first try code ( followed the guide)
