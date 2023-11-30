@@ -4,68 +4,70 @@ namespace PrimeFactorTests
 {
     public class PrimeFactorsTests
     {
-        private List<int> CreateList(params int[] ints)
-        {
-            List<int> intsList = [];
 
-            foreach (int i in ints)
-            {
-                intsList.Add(i);
-            }
+        // first try code ( followed the guide)
+        //private List<int> CreateList(params int[] ints)
+        //{
+        //    List<int> intsList = [];
 
-            return intsList;
-        }
+        //    foreach (int i in ints)
+        //    {
+        //        intsList.Add(i);
+        //    }
 
-        [Fact]
-        public void Test1()
-        {
-            // Arrange
+        //    return intsList;
+        //}
 
-            // Act
+        //[Fact]
+        //public void Test1()
+        //{
+        //    // Arrange
 
-            // Assert
-            Assert.Equal(CreateList(), Generate(1));
-        }
+        //    // Act
 
-        [Fact]
-        public void Test2()
-        {
-            // Arrange
+        //    // Assert
+        //    Assert.Equal(CreateList(), Generate(1));
+        //}
 
-            // Act
+        //[Fact]
+        //public void Test2()
+        //{
+        //    // Arrange
 
-            // Assert
-            Assert.Equal(CreateList(2), Generate(2));
-        }
+        //    // Act
 
-        [Fact]
-        public void Test3()
-        {
-            Assert.Equal(CreateList(3), Generate(3));
-        }
+        //    // Assert
+        //    Assert.Equal(CreateList(2), Generate(2));
+        //}
 
-        [Fact]
-        public void Test4()
-        {
-            Assert.Equal(CreateList(2, 2), Generate(4));
-        }
+        //[Fact]
+        //public void Test3()
+        //{
+        //    Assert.Equal(CreateList(3), Generate(3));
+        //}
 
-        [Fact]
-        public void Test5()
-        {
-            Assert.Equal(CreateList(2, 3), Generate(6));
-        }
+        //[Fact]
+        //public void Test4()
+        //{
+        //    Assert.Equal(CreateList(2, 2), Generate(4));
+        //}
 
-        [Fact]
-        public void Test6()
-        {
-            Assert.Equal(CreateList(2, 2, 2), Generate(8));
-        }
+        //[Fact]
+        //public void Test5()
+        //{
+        //    Assert.Equal(CreateList(2, 3), Generate(6));
+        //}
 
-        [Fact]
-        public void Test7()
-        {
-            Assert.Equal(CreateList(3, 3), Generate(9));
-        }
+        //[Fact]
+        //public void Test6()
+        //{
+        //    Assert.Equal(CreateList(2, 2, 2), Generate(8));
+        //}
+
+        //[Fact]
+        //public void Test7()
+        //{
+        //    Assert.Equal(CreateList(3, 3), Generate(9));
+        //}
     }
 }
