@@ -71,16 +71,16 @@ namespace PrimeFactorTests
             Assert.Equal([2, 2, 2], Generate(8));
         }
 
-        //[Fact]
-        //public void Should_ReturnCorrectList_For9()
-        //{
-        //    // Arrange
+        [Fact]
+        public void Should_ReturnCorrectList_For9()
+        {
+            // Arrange
 
-        //    // Act
+            // Act
 
-        //    // Assert
-        //    Assert.Equal([3, 3], Generate(6));
-        //}
+            // Assert
+            Assert.Equal([3, 3], Generate(9));
+        }
 
         // first try code ( followed the guide)
         //private List<int> CreateList(params int[] ints)
