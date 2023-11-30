@@ -6,7 +6,7 @@ namespace PrimeFactorTests
     public class PrimeFactorsTests
     {
         [Fact]
-        public void Test1()
+        public void Should_ReturnEmptyList_For1()
         {
             // Arrange
 
@@ -17,7 +17,7 @@ namespace PrimeFactorTests
         }
 
         [Fact]
-        public void Test2()
+        public void Should_ReturnCorrectList_For2()
         {
             // Arrange
 
@@ -28,7 +28,7 @@ namespace PrimeFactorTests
         }
 
         [Fact]
-        public void Test3()
+        public void Should_ReturnCorrectList_For3()
         {
             // Arrange
 
@@ -39,7 +39,7 @@ namespace PrimeFactorTests
         }
 
         [Fact]
-        public void Test4()
+        public void Should_ReturnCorrectList_For4()
         {
             // Arrange
 
@@ -50,7 +50,7 @@ namespace PrimeFactorTests
         }
 
         [Fact]
-        public void Test6()
+        public void Should_ReturnCorrectList_For6()
         {
             // Arrange
 
