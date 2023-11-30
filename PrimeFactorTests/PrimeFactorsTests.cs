@@ -49,6 +49,17 @@ namespace PrimeFactorTests
             Assert.Equal([2, 2], Generate(4));
         }
 
+        [Fact]
+        public void Test6()
+        {
+            // Arrange
+
+            // Act
+
+            // Assert
+            Assert.Equal([2, 3], Generate(6));
+        }
+
         // first try code ( followed the guide)
         //private List<int> CreateList(params int[] ints)
         //{
