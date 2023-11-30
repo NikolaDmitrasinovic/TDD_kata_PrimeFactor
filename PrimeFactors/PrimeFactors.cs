@@ -6,8 +6,10 @@
         {
             if (number < 2)
                 return [];
+            else if (number == 2)
+                return [2];
 
-            return [2];
+            return [3];
         }
 
         // first try code ( followed the guide)
