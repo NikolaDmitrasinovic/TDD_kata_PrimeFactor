@@ -1,9 +1,20 @@
+using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.Serialization;
 using static PrimeFactors.PrimeFactors;
 
 namespace PrimeFactorTests
 {
     public class PrimeFactorsTests
     {
+        [Fact]
+        public void Test1()
+        {
+            // Arrange
+
+            // Act
+
+            // Assert
+            Assert.Equal(new List<int>(), Generate(1));
+        }
 
         // first try code ( followed the guide)
         //private List<int> CreateList(params int[] ints)

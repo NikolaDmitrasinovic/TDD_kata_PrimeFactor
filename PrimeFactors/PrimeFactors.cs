@@ -2,7 +2,10 @@
 {
     public class PrimeFactors
     {
-
+        public static List<int> Generate(int number)
+        {
+            return null;
+        }
 
         // first try code ( followed the guide)
         //public static List<int> Generate(int number)
